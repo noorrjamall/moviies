@@ -23,9 +23,8 @@ main {
 
 .movie-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem; /* Space between movie sections */
-    justify-content: center; /* Center the items */
+    flex-direction: column; /* Stack movies vertically */
+    gap: 20px; /* Space between movies */
 }
 
 .movie {
